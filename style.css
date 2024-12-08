@@ -1,0 +1,61 @@
+:root {
+    --neon-pink: #ff00ff;
+    --neon-blue: #00ffff;
+    --neon-green: #39ff14;
+    --neon-purple: #9d00ff;
+    --neon-orange: #ff9100;
+}
+
+.card {
+    border: 2px solid var(--neon-blue);
+    box-shadow: 0 0 15px var(--neon-blue) !important;
+}
+
+.card-header {
+    background: linear-gradient(45deg, var(--neon-purple), var(--neon-blue)) !important;
+    border-bottom: 2px solid var(--neon-blue);
+}
+
+.btn-primary {
+    background-color: var(--neon-purple) !important;
+    border-color: var(--neon-blue) !important;
+    box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.btn-primary:hover {
+    background-color: var(--neon-blue) !important;
+    box-shadow: 0 0 15px var(--neon-blue);
+}
+
+.badge.bg-success {
+    background-color: var(--neon-green) !important;
+    box-shadow: 0 0 5px var(--neon-green);
+}
+
+.badge.bg-warning {
+    background-color: var(--neon-orange) !important;
+    box-shadow: 0 0 5px var(--neon-orange);
+}
+
+.badge.bg-danger {
+    background-color: var(--neon-pink) !important;
+    box-shadow: 0 0 5px var(--neon-pink);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--neon-purple);
+    box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.list-group-item {
+    border: 1px solid var(--neon-blue);
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    box-shadow: 0 0 10px var(--neon-blue);
+}
+*body {
+    background: black !important;
+}
