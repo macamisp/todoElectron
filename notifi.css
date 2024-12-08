@@ -1,0 +1,33 @@
+.alert {
+    animation: slideIn 0.5s ease-in-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.alert-success {
+    background-color: var(--neon-green);
+    border-color: var(--neon-green);
+    color: black;
+}
+
+.alert-danger {
+    background-color: var(--neon-pink);
+    border-color: var(--neon-pink);
+    color: black;
+}
+
+.alert-warning {
+    background-color: var(--neon-orange);
+    border-color: var(--neon-orange);
+    color: black;
+}

@@ -56,6 +56,19 @@
 .list-group-item:hover {
     box-shadow: 0 0 10px var(--neon-blue);
 }
+
+#show-all, #show-active, #show-completed, #show-overdue, #clear-completed {
+    background-color: #1e90ff; /* Neon blue color */
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 10px #1e90ff, 0 0 20px #1e90ff, 0 0 30px #1e90ff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#show-all:hover, #show-active:hover, #show-completed:hover, #show-overdue:hover, #clear-completed:hover {
+    box-shadow: 0 0 20px #1e90ff, 0 0 30px #1e90ff, 0 0 40px #1e90ff;
+}
+
 *body {
     background: black !important;
 }
